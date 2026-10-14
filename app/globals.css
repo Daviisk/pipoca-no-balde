@@ -26,3 +26,6 @@ body{background:#fcf8f1;color:#302236}header{background:#fffdfaef;border-bottom:
 
 /* Review: clear interaction feedback, mobile accessibility */
 .product button:disabled{background:#e9e0e9;color:#796a80;box-shadow:none}.admin-check{padding:15px;background:#fffefa;border:1px solid #eee4ed;border-radius:14px}.sheet{scrollbar-gutter:stable}.product h3{overflow-wrap:anywhere}.product .price{margin-top:auto}.hero button:focus-visible,.bottom button:focus-visible{outline:3px solid #f83d7c;outline-offset:3px}@media(max-width:600px){.hero p{max-width:270px}.sheet{padding-bottom:calc(30px + env(safe-area-inset-bottom))}.product button{min-height:44px}}
+
+/* Accessibility and operational refinements */
+.admin-premium>.error{max-width:700px;margin:0 auto 15px}.admin-premium .admin-check{max-width:620px;margin:0 auto 22px}.sheet[role=dialog]{outline:0}.product-form input[type=file]{font-size:12px;max-width:100%}.product-list-actions button{white-space:nowrap}@media(max-width:480px){.admin-premium .product-list-actions{width:100%;justify-content:flex-end}.sheet .line{gap:8px}.sheet .line button.small{padding:7px 10px;min-height:39px}}
