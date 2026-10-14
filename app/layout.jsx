@@ -1,0 +1,1 @@
+import './globals.css';export const metadata={title:'Pipoca no Balde | Pipocas gourmet',description:'Pipocas gourmet para momentos incríveis!'};export default function RootLayout({children}){return <html lang="pt-BR"><body>{children}</body></html>}
