@@ -58,3 +58,6 @@ body{background:#fcf8f1;color:#302236}header{background:#fffdfaef;border-bottom:
  .bottom button{height:55px!important;min-height:55px!important;gap:1px!important;font-size:10px!important}.bottom .nav-icon{width:37px!important;height:33px!important}.bottom .nav-icon svg{width:21px;height:21px}.bottom .nav-label{font-size:10px!important}
 }
 @media(max-width:370px){.hero{grid-template-columns:minmax(0,1fr) 88px!important;padding:23px 16px!important}.hero h1{font-size:29px!important}.hero .hero-logo-hd{width:88px!important;max-width:88px!important}.hero .hero-logo-hd img{width:88px!important;height:88px!important}.hero button{font-size:11px!important}.brand{font-size:13px}.header-cart{font-size:11px}}
+
+/* Credits footer */
+.site-footer{border-top:1px solid #eadfe8;background:#fffaf4;color:#6d5b70;padding:23px 22px 110px;font-size:12px}.site-footer-inner{max-width:1160px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:10px 25px;flex-wrap:wrap}.site-footer a{color:#36104f;font-weight:800;text-decoration:none}.site-footer a:hover,.site-footer a:focus-visible{text-decoration:underline}@media(min-width:700px){.site-footer{padding-bottom:100px}}@media(max-width:699px){.site-footer{padding:23px 20px 130px;text-align:center}.site-footer-inner{justify-content:center;flex-direction:column;gap:8px}}
